@@ -9,7 +9,7 @@ connection.on("ready",function(){
     setInterval(function(){
       console.log("publishing ....");
       var randKey = queues[parseInt(queues.length*Math.random())];
-      exchange.publish(randKey, {msg: "message for " + randKey});
+      exchange.publish("K1", {msg: "message for " + randKey});
     },1000);
   })
 })
