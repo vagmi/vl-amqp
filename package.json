@@ -1,0 +1,7 @@
+{
+  "name": "vl-amqp",
+  "version": "0.0.1",
+  "dependencies": {
+    "amqp":"0.1.3"
+  }
+}
